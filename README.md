@@ -23,4 +23,4 @@ This module fetches notices from The Gazette REST API and displays them with pag
 The markup is rendered through `notices-list.html.twig`. You can customize the template for styling.
 
 ## Maintainers
-Custom module example provided for integration purposes.
+Mayur Jadhav
