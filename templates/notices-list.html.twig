@@ -1,0 +1,15 @@
+<div class="notices-data">
+  {% if notices %}
+    {% for notice in notices %}
+      <article class="notice-item">
+        <h2> {{ notice.link }} </h2>
+        <time>{{ notice.published }}</time>
+        <div>{{ notice.content|raw }}</div>
+      </article>
+    {% endfor %}
+  {% else %}
+    <p>No notices found.</p>
+  {% endif %}
+
+  {{ pager }}
+</div>

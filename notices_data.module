@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function notices_data_theme($existing, $type, $theme, $path) {
+  return [
+    'notices_list' => [
+      'variables' => [
+        'notices' => [], 
+        'pager' => NULL
+       ],
+      'template' => 'notices-list',
+      'path' => \Drupal::service('extension.path.resolver')->getPath('module', 'notices_data') . '/templates',
+    ],
+  ];
+}

@@ -1,0 +1,7 @@
+notices_data.list:
+  path: '/notices-data'
+  defaults:
+    : '\Drupal\notices_data\Controller\NoticeController::listNotices'
+    _title: '_controllerNotices Data'
+  requirements:
+    _permission: 'access content'

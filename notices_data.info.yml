@@ -1,0 +1,7 @@
+name: 'Notices Data'
+type: module
+description: 'Displays notices from The Gazette API with pagination using Twig template.'
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:system
